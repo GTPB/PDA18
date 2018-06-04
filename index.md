@@ -30,8 +30,8 @@ This course is oriented towards biologists and bioinformaticians with at least a
 
 #### 1. Bioinformatics for Proteomics
 
-- Slides: [Bioinformatics for Proteomics](martens_proteomics_bioinformatics_20180529.pdf)
-- Slides: [Quantification in MS proteomics](martens_proteomics_quantification_20180530.pdf)
+- Slides: [Bioinformatics for Proteomics](assets/martens_proteomics_bioinformatics_20180529.pdf)
+- Slides: [Quantification in MS proteomics](assets/martens_proteomics_quantification_20180530.pdf)
 - Tutorials: [Tutorials Bioinformatics for Proteomics](https://compomics.com/bioinformatics-for-proteomics/)  
 
 #### 2. Statistical Data Analysis for Proteomics
