@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Instructors
-description: CPANG18 Course instructors description
+description: PDA18 Course instructors description
 ---
 
 ### Lennart Martens
