@@ -55,7 +55,7 @@ Figure 2. Illustration of the target and decoy distributions, in grey the histog
 
 When working with the online binder version, hit the binder button below:
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/statOmics/proteomicsShortCourse/master?urlpath=rstudio)
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/statOmics/pda/master?urlpath=rstudio)
 
 Now an interactive statistical programming environment will open that is running on a cloud server. In this tutorial we will not make use of the powerful R-scripting environment, but we will launch an App with a GUI instead. Open the launchEvalDecoyShinyApp.R file by clicking on the file in the bottom right panel.
 
@@ -73,7 +73,7 @@ The App is launched.
 
 The Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) reference proteome. The resulting database has 2,051 proteins in total (https://www.uniprot.org/uniprot/?query=taxonomy:186497, taxonomy:"Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) [186497]").
 
-The data can be found on https://github.com/statOmics/proteomicsShortcourseData
+The data can be found on https://github.com/statOmics/pdaData
 Use the mzid file for the pyrococcus example, which can be found at data/identification/pyrococcusMSGF+.mzid
 When the file is uploaded, push the "Process mzid file" button. It will take a while to process the file and you will see that the "Process mzid file" becomes light blue and that an activity indicator appears next to the button.
 
