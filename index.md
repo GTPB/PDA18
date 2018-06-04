@@ -32,7 +32,7 @@ This course is oriented towards biologists and bioinformaticians with at least a
 
 #### 2. Statistical Data Analysis for Proteomics
 
- 2.0. Statistical software and data:
+ 2.0. Statistical Software and Data
  - [Install and Launch Statistical Software](pages/software4stats.md)
  - [Download Tutorial Data](https://github.com/statOmics/pdaData)
 
