@@ -13,11 +13,11 @@ There are three options to work with the software:
 
 1. Launch an R studio interface in an R docker along with bioconductor packages for proteomics.
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/statOmics/proteomicsShortCourse/master?urlpath=rstudio)
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/GTPB/PDA18/master?urlpath=rstudio)
 
 2. Alternatively, you can launch R studio via the jupyter binder environment:
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/statOmics/proteomicsShortCourse/master)
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/GTPB/PDA18/master)
 
 Once inside Jupyter Notebook, RStudio Server should be an option under the menu
 "New":
