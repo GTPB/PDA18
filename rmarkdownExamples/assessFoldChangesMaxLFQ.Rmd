@@ -1,0 +1,50 @@
+---
+title: 'Assess fold changes based on the LFQ summaries'
+output: html_notebook
+author: Lieven Clement
+---
+
+We will use an R notebook to analyse the summarized data.
+This will allow us to weave text and R commands.
+The R chunks can be executed by pressing the play button in the top right above the R chunk.
+
+#Data Import
+We can download summarized data from the summarization tab of MSqRob. It is in Excel format.
+Excel data can be read into R by the opelxlsx package.
+We first load the package using the 'library(openxlsx)' function.
+Object in R are assigned by the '=' or the '<-' operator.
+The latter operator is generally preferred.
+With the function head we can inspect the first few rows of a matrix or a dataframe.
+
+##Load data
+```{r}
+library(openxlsx)
+lfqSum<-read.xlsx("lfqSummariesLab3.xlsx")
+head(lfqSum)
+```
+
+We will add a new column to the dataset that indicates if the peptide is a ups protein or a yeast protein.
+We can do that by using the accession column. The peptides' name included the pattern "ups".
+The "grepl" function in R can be used to check if a string contains a pattern. It returns a boolean: TRUE or FALSE.
+
+##Extract UPS names
+```{r}
+#We first rename the
+names(lfqSum)[1] <-"accession"
+lfqSum$ups<-grepl(pattern="ups",lfqSum$accession)
+head(lfqSum)
+```
+
+Next, we will calculate the mean for each group and the log2 fold change.
+Finally we will make a boxplot for the ups and yeast proteins.
+Note, that the real log2 fold change is 1.5. (Check this).
+
+##Calculate means
+```{r}
+lfqSum$mu1<-rowMeans(lfqSum[,grepl(pattern="X6A",names(lfqSum))],na.rm=TRUE)
+lfqSum$mu2<-rowMeans(lfqSum[,grepl(pattern="X6B",names(lfqSum))],na.rm=TRUE)
+lfqSum$logfc<-lfqSum$mu2-lfqSum$mu1
+head(lfqSum)
+boxplot(logfc~ups,data=lfqSum,main=paste0(sum(!lfqSum$ups)," yeast and ",sum(lfqSum$ups)," ups proteins"))
+abline(h=1.5,col="red",lwd=2)
+```
