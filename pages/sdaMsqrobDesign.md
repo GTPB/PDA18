@@ -52,7 +52,7 @@ We provided 3 peptides txt files.
 2. For a 6 vs 6 comparison
 3. For a 9 vs 9 comparison
 
-The data can be found at https://github.com/statOmics/pdaData
+The data can be found at https://github.com/gTPB/PDA18/tree/data
 in the folder data/quantification/cancer
 
 Perform an MSqRob analysis for each peptide file. What is the impact of the sample size on the results?

@@ -73,7 +73,7 @@ The App is launched.
 
 The Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) reference proteome. The resulting database has 2,051 proteins in total (https://www.uniprot.org/uniprot/?query=taxonomy:186497, taxonomy:"Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) [186497]").
 
-The data can be found on https://github.com/statOmics/pdaData
+The data can be found on https://github.com/gTPB/PDA18/tree/data
 Use the mzid file for the pyrococcus example, which can be found at data/identification/pyrococcusMSGF+.mzid
 When the file is uploaded, push the "Process mzid file" button. It will take a while to process the file and you will see that the "Process mzid file" becomes light blue and that an activity indicator appears next to the button.
 
