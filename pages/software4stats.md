@@ -29,9 +29,9 @@ Once inside Jupyter Notebook, RStudio Server should be an option under the menu
 docker build <path to proteomicsShortCourse directory> -t msqrob_docker
 ```
 
-#### Install the Docker on local machines at GBTP.
+#### Install the Docker on local machines at GTPB.
 
-Tentative for participants at GBTP.
+Tentative for participants at GTPB.
 In the PC-roams the docker is available on the share.
 You only have to install the docker  do that once for every machine.
 
