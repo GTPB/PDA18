@@ -24,9 +24,11 @@ This course is oriented towards biologists and bioinformaticians with at least a
 - Slides: [Data Sharing](assets/DataSharingPDA18.pdf)
 - Tutorials: [Tutorials Bioinformatics for Proteomics](https://compomics.com/bioinformatics-for-proteomics/)  
 
+<br/>
+
 ### 2. Statistical Data Analysis for Proteomics
 
- 2.0. Statistical Software and Data
+2.0. Statistical Software and Data
  - [Install and Launch Statistical Software](pages/software4stats.md)
  - [Download Tutorial Data](https://github.com/gTPB/PDA18/tree/data)
 
@@ -45,7 +47,7 @@ This course is oriented towards biologists and bioinformaticians with at least a
 
 ---
 
-### [Learning objectives and Pre-requisites](pages/course_prerequesites.md)
+### [Course Pre-requisites](pages/course_prerequesites.md)
 
 ### [Instructors](pages/instructors.md)
 
