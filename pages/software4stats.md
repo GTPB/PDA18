@@ -42,6 +42,8 @@ You only have to install the docker  do that once for every machine.
 1. Open a terminal
 ![Figure Launch Docker 1](./figs/installDocker1.png)
 
+<br/>
+
 2. Type
 
 ```
@@ -103,9 +105,8 @@ Press enter! Then the jupyter hub environment will launch.
 
 ![Figure ](./figs/jupyterHub.png)
 
-Select New>Rstudio Session to launch the statistical software R.
+Select **New** > **Rstudio Session** to launch the statistical software R.
 Now an interactive statistical programming environment will open in the browser that runs on a cloud server.
-
 
 <br/>
 
