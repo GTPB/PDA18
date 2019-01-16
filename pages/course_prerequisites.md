@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Course Pre-requesites
+title: Course Pre-requisites
 ---
 
 The participants should have a basic knowledge about mass spectrometry based proteomics. Experience in analysing proteomics data is an advantage, but not mandatory. The course does not require advanced computer skills.
