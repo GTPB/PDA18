@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Software for Stats Tutorials
 ---
 
@@ -9,7 +9,9 @@ There are three options to work with the software:
 2. Using an online binder docker environment that launches a Jupyter binder environment.
 3. Using an offline docker that launches a Jupyter environment.
 
-#### Getting started
+<br/>
+
+## Getting started
 
 1. Launch an R studio interface in an R docker along with bioconductor packages for proteomics.
 
@@ -29,7 +31,9 @@ Once inside Jupyter Notebook, RStudio Server should be an option under the menu
 docker build <path to proteomicsShortCourse directory> -t msqrob_docker
 ```
 
-#### Install the Docker on local machines at GTPB.
+<br/>
+
+## Install the Docker on local machines at GTPB.
 
 Tentative for participants at GTPB.
 In the PC-roams the docker is available on the share.
@@ -54,7 +58,9 @@ Then we give the full path to the docker, which is available on the share.
 
 Now the docker installations starts.
 
-#### Launch the Docker
+<br/>
+
+## Launch the Docker
 
 1. Open a terminal
 
@@ -100,7 +106,10 @@ Press enter! Then the jupyter hub environment will launch.
 Select New>Rstudio Session to launch the statistical software R.
 Now an interactive statistical programming environment will open in the browser that runs on a cloud server.
 
-#### Close the Docker
+
+<br/>
+
+## Close the Docker
 
 Only if you work with a local Docker.
 1. Close RStudio
@@ -111,3 +120,9 @@ Only if you work with a local Docker.
 sudo docker stop c924e5fb54b5
 ```
 where you replace `c924e5fb54b5` with the name of your docker.
+
+<br/>
+
+### Back
+
+Back to [first page](../index.md).
