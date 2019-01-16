@@ -71,7 +71,7 @@ A novel panel opens in the topleft. Click on runApp to launch the EvalDecoy app.
 
 The App is launched.
 
-<img src="./figs/evaluateDecoys1.png" width="100">
+<img src="./figs/evaluateDecoys1.png" width="200">
 
 <br/>
 
@@ -83,7 +83,7 @@ The data can be found on [https://github.com/GTPB/PDA18/tree/data](https://githu
 Use the mzid file for the pyrococcus example, which can be found at data/identification/pyrococcusMSGF+.mzid.
 When the file is uploaded, push the "Process mzid file" button. It will take a while to process the file and you will see that the "Process mzid file" becomes light blue and that an activity indicator appears next to the button.
 
-<img src="./figs/evaluateDecoys2.png" width="100">
+<img src="./figs/evaluateDecoys2.png" width="200">
 
 After processing the mzid file, two additional input tabs appear: one to select the decoy column, which is generally called "isdecoy" and another one to select the search engine score. Note, that two error messages appear because no diagnostic plots can be generated when the selected decoy column is not a variable of the type Boolean (TRUE or FALSE) and the engine score is not a numeric variable.
 
