@@ -30,7 +30,7 @@ This course is oriented towards biologists and bioinformaticians with at least a
 
 2.0. Statistical Software and Data
  - [Install and Launch Statistical Software](pages/software4stats.md)
- - [Download Tutorial Data](../tree/data)
+ - [Download Tutorial Data](../data)
 
 2.1. Identification
 - Slides:  [False Discovery Rate and Target Decoy Approach](assets/1_Identification_Evaluation_Target_Decoy_Approach.pdf)
