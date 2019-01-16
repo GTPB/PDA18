@@ -42,7 +42,7 @@ You only have to install the docker  do that once for every machine.
 1. Open a terminal
 ![Figure Launch Docker 1](./figs/installDocker1.png)
 
-2. type
+2. Type
 
 ```
 sudo docker load -i /media/gtpb_shared_drive/To_Participant/statsDocker/msqrob_docker.tar
