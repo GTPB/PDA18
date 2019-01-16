@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2. Statistical analysis with MSqRob for simple designs
+title: 2.2 Statistical analysis with MSqRob for simple designs
 mathjax: true
 ---
 
