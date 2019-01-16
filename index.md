@@ -28,20 +28,20 @@ This course is oriented towards biologists and bioinformaticians with at least a
 
 ### 2. Statistical Data Analysis for Proteomics
 
-#### 2.0. Statistical Software and Data
+##### 2.0. Statistical Software and Data
  - [Install and Launch Statistical Software](pages/software4stats.md)
  - [Download Tutorial Data](https://github.com/GTPB/PDA18/archive/data.zip)
 
-#### 2.1. Identification
+##### 2.1. Identification
 - Slides:  [False Discovery Rate and Target Decoy Approach](assets/1_Identification_Evaluation_Target_Decoy_Approach.pdf)
 - Tutorial: [Evaluating Target Decoy Quality](pages/Identification.md)  
 
-#### 2.2 Statistical Data Analysis of Label Free Quantitative Proteomics Experiments with Simple Designs
+##### 2.2 Statistical Data Analysis of Label Free Quantitative Proteomics Experiments with Simple Designs
 - Slides: [Preprocessing](assets/2_MSqRob_data_analysisI.pdf), [Results of Preprocessing](assets/2_MSqRob_data_analysisIb.pdf)
 - Tutorial: [Statistical Data Analysis with MSqRob for Simple Designs](pages/sdaMsqrobSimple.md)
 - Robust Regression: [Robust Regression Explained by Example](pages/robustRegression.nb.html)  
 
-#### 2.3. Statistical Analysis of Label Free Quantitative Proteomics Experiments with Factorial Designs
+##### 2.3. Statistical Analysis of Label Free Quantitative Proteomics Experiments with Factorial Designs
 - Slides: [Statistical Inference](assets/2_MSqRob_data_analysisII.pdf)
 - Tutorial: [Statistical Data Analysis with MSqRob for Factorial Designs](pages/sdaMsqrobDesign.md)
 
