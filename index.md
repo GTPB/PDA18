@@ -36,8 +36,8 @@ This course is oriented towards biologists and bioinformaticians with at least a
 - Slides:  [False Discovery Rate and Target Decoy Approach](assets/1_Identification_Evaluation_Target_Decoy_Approach.pdf)
 - Tutorial: [Evaluating Target Decoy Quality](pages/Identification.md)  
 
-##### 2.2 Statistical Data Analysis of Label Free Quantitative Proteomics Experiments with Simple Designs
-- Slides: [Preprocessing](assets/2_MSqRob_data_analysisI.pdf), [Results of Preprocessing](assets/2_MSqRob_data_analysisIb.pdf)
+##### 2.2. Statistical Data Analysis of Label Free Quantitative Proteomics Experiments with Simple Designs
+- Slides: [Preprocessing](assets/2_MSqRob_data_analysisI.pdf),    [Results of Preprocessing](assets/2_MSqRob_data_analysisIb.pdf)
 - Tutorial: [Statistical Data Analysis with MSqRob for Simple Designs](pages/sdaMsqrobSimple.md)
 - Robust Regression: [Robust Regression Explained by Example](pages/robustRegression.nb.html)  
 
