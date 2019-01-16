@@ -78,7 +78,7 @@ The App is launched.
 
 ## 2.1.4 Pyrococcus dataset
 
-The Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) reference proteome. The resulting database has 2,051 proteins in total (https://www.uniprot.org/uniprot/?query=taxonomy:186497](https://www.uniprot.org/uniprot/?query=taxonomy:186497), taxonomy:"Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) [186497]").
+The Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) reference proteome. The resulting database has 2,051 proteins in total ([https://www.uniprot.org/uniprot/?query=taxonomy:186497](https://www.uniprot.org/uniprot/?query=taxonomy:186497), taxonomy:"Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) [186497]").
 
 The data can be found on [https://github.com/GTPB/PDA18/tree/data](https://github.com/GTPB/PDA18/tree/data).
 Use the mzid file for the pyrococcus example, which can be found at data/identification/pyrococcusMSGF+.mzid
