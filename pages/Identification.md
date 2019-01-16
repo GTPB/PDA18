@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2.1 Identification: Evaluation of Target Decoy Approach
+title: 2.2 Statistical analysis with MSqRob for simple designs
 mathjax: true
 ---
 
