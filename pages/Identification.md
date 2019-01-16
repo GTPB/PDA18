@@ -6,8 +6,8 @@ mathjax: true
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-Shotgun proteomics relies on the assignment of a large number of spectra to theoretical peptides derived from a sequence database. Multiple search engines have been developed for this task, each with its own advantages and drawbacks. Most proteomics database searches are performed as so-called target/decoy searches. A crucial assumption of the target/decoy approach is that the decoy **peptide-spectral 
-match (PSM)** hits have similar properties as bad target hits so that the decoys can be used to characterize the distribution of bad hits. In this tutorial we will introduce diagnostic plots that can be used to evaluate these assumptions.
+Shotgun proteomics relies on the assignment of a large number of spectra to theoretical peptides derived from a sequence database. Multiple search engines have been developed for this task, each with its own advantages and drawbacks. Most proteomics database searches are performed as so-called target/decoy searches. A crucial assumption of the target/decoy approach is that the decoy peptide-spectral 
+match (PSM) hits have similar properties as bad target hits so that the decoys can be used to characterize the distribution of bad hits. In this tutorial we will introduce diagnostic plots that can be used to evaluate these assumptions.
 
 <br/>
 
@@ -22,7 +22,7 @@ Based on the mixture distribution we can calculate the posterior probability tha
 
 $$ P[\text{Bad hit} \vert \text{score }x]=\frac{\pi_0 f_0 (x)}{f(x)}, $$
 
-which is also referred to as the **posterior error probability (PEP)** in mass spectrometry based proteomics.
+which is also referred to as the posterior error probability (PEP) in mass spectrometry based proteomics.
 Based on the mixture model, we can also calculate the posterior probability that a random PSM in the set of all PSMs with scores above a score threshold t is a bad hit (see e.g. Figure 1):
 
 $$ P[\text{Bad hit} \vert \text{score }x>t]=\pi_0 \frac{1-F_0 (t)}{1-F(t)}, $$
@@ -105,18 +105,18 @@ Both type of deviations should be of concern as they indicate that the FDR retur
 
 <br/>
 
-#### 1. Assess the search you performed in "Tutorial 1. Peptide and Protein Identification" at [https://compomics.com/bioinformatics-for-proteomics/identification/](https://compomics.com/bioinformatics-for-proteomics/identification/)
+##### 1. Assess the search you performed in "Tutorial 1. Peptide and Protein Identification" at [https://compomics.com/bioinformatics-for-proteomics/identification/](https://compomics.com/bioinformatics-for-proteomics/identification/)
 Open the search from tutorial 1.3. in Peptide Shaker and export the search to an mzid file by clicking export > Peptide Shaker Project As > mzIdentML. Evaluate the TDA for the ommsa, X!Tandem and the Peptide Shaker score.
 
 Evaluate the TDA for the  X!Tandem, OMSSA and Peptide Shaker scores. What do you observe and try to explain. [1.4.a]
 
-#### 2. Pyrococcus - Peptide Shaker - Uniprot search
+##### 2. Pyrococcus - Peptide Shaker - Uniprot search
 Do the analysis for the search MSGF+, X!Tandem, OMSSA and Peptide Shaker scores based on all Pyrococcus proteins in a search against all pyrococcus peptides in Uniprot (data/identification/pyroUniprot.mzid). What do you observe explain. [1.4.b]
 
-#### 3. Pyrococcus/Peptide Shaker - Swiss prot search
+##### 3. Pyrococcus/Peptide Shaker - Swiss prot search
 Do the analysis for the search MSGF+, X!Tandem, OMSSA and Peptide Shaker scores for Pyrococcus based on the curated proteins from swissprot only (data/identification/pyroSwissprot.mzid). What do you observe. Try to explain. [1.4.c]
 
-#### 4. FDR Elias and Gygi, 2007
+##### 4. FDR Elias and Gygi, 2007
 Elias and Gygi, 2007, reported the following target decoy FDR estimation:
 
 $$\widehat{\text{FDR}}(t)=\frac {2 \times (\#decoys >t)}{\#decoys > t + \#targets > t}$$
