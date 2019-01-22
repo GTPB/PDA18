@@ -15,7 +15,8 @@ This course is oriented towards biologists and bioinformaticians with at least a
 
 ---
 
-## Detailed Program
+## Course Documentation
+All the datasets used for this training course is available throughout the documentation.
 
 ### 1. Bioinformatics for Proteomics
 
@@ -53,4 +54,4 @@ This course is oriented towards biologists and bioinformaticians with at least a
 
 ---
 
-The source for this course webpage is [on github](https://github.com/maccardoso/PDA).
+The source for this course webpage is [on github](https://github.com/GTPB/PDA18/tree/gh-pages).
