@@ -134,6 +134,7 @@ Now the data and the script are present in rstudio.
 In R studio, we make use of an R book, which enables us to weave text and R code.
 The R book can be adaptively expanded so that you can document your analysis.
 Every data analysis step is carried out in an R chunk, which starts with
+
 ```{r}
 ```
 
@@ -187,7 +188,7 @@ Select an area on the plot and double click to zoom in. Double click on an unsel
 
 #### 2.2.4 The Francisella dataset
 A study on the facultative pathogen Francisella tularensis was conceived by Ramond et al. (2015) [12]. F. tularensis enters the cells of its host by phagocytosis. The authors showed that F. tularensis is arginine deficient and imports arginine from the host cell via an arginine transporter, ArgP, in order to efficiently escape from the phagosome and reach the cytosolic compartment, where it can actively multiply. In their study, they compared the proteome of wild type F. tularensis (WT) to ArgP-gene deleted F. tularensis (knock-out, D8). For this exercise, we use a subset of the F. tularensis dataset where bacterial cultures were grown in biological triplicate and each sample was run on a nanoRSLC-Q Exactive PLUS instrument. The data were searched with MaxQuant version 1.4.1.2.
-The data can be found on [https://github.com/gTPB/PDA18/tree/data](https://github.com/gTPB/PDA18/tree/data)
+The data can be found on [https://github.com/GTPB/PDA18/tree/data](https://github.com/GTPB/PDA18/tree/data)
 
 <br/>
 
