@@ -15,9 +15,8 @@ You will also be requested to watch the following videos before attending the co
 - [Lecture mass spectrometry basics - Part 6 - Tandem Mass Spectrometry (24:54)](https://www.youtube.com/watch?v=Wy1SwrMzhYk)
 - [Lecture mass spectrometry basics - Part 7 - A CID Fragmentation Primer (25:37)](https://www.youtube.com/watch?v=JBt_9hBnXcQ)
 
-
 <br/>
 
 ### Back
 
-Back to [first page](https://maccardoso.github.io/PDA/).
+Back to [first page](../index.md).
