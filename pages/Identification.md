@@ -1,17 +1,17 @@
 ---
-layout: default
-title: 1. Identification: Evaluation of Target Decoy Approach
+layout: page
+title: 2.1 Identification - Evaluating Target Decoy Quality
 mathjax: true
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+Shotgun proteomics relies on the assignment of a large number of spectra to theoretical peptides derived from a sequence database. Multiple search engines have been developed for this task, each with its own advantages and drawbacks. Most proteomics database searches are performed as so-called target/decoy searches. A crucial assumption of the target/decoy approach is that the decoy peptide-spectral 
+match (PSM) hits have similar properties as bad target hits so that the decoys can be used to characterize the distribution of bad hits. In this tutorial we will introduce diagnostic plots that can be used to evaluate these assumptions.
 
-### 2.1. Identification: Evaluation of Target Decoy Approach
+<br/>
 
-Shotgun proteomics relies on the assignment of a large number of spectra to theoretical peptides derived from a sequence database. Multiple search engines have been developed for this task, each with its own advantages and drawbacks. Most proteomics database searches are performed as so-called target/decoy searches. A crucial assumption of the target/decoy approach is that the decoy PSM hits have similar properties as bad target hits so that the decoys can be used to characterize the distribution of bad hits. In this tutorial we will introduce diagnostic plots that can be used to evaluate these assumptions.
-
-#### 2.1.1 Basic Statistical Concepts
+## 2.1.1 Basic Statistical Concepts
 
 We first introduce some notation. With x we denote the PSM score and we assume that larger score values indicate a better match to the theoretical spectrum. Then the scores will follow a mixture distribution:
 
@@ -35,7 +35,9 @@ With \\( F(t) \\) and \\( F_0(t) \\) the cumulative distribution functions of al
 In order to calculate the FDR, we thus have to characterize the distribution of the bad hits and of all PSMs.
 In proteomics this is done by the use of the target/decoy approach.
 
-#### 2.1.2. Target Decoy Approach
+<br/>
+
+## 2.1.2. Target Decoy Approach
 
 When using a competitive target decoy search, the FDR of the set of returned PSMs is estimated by dividing the number of accepted decoys PSMs by the number of accepted target PSMs above a certain score cutoff [1].
 
@@ -51,7 +53,9 @@ Hence, the proportion of bad hits \\( \pi_0 \\) is estimated as the number of de
 
 Figure 2. Illustration of the target and decoy distributions, in grey the histogram of the target PSM scores, the blue bars are the histogram of the decoy PSM scores. We indeed see that the decoy PSMs match well with  the incorrect targets that are more likely to occur at low scores. The red bars are an estimate of the correct target distribution and are equal to the target counts (gray histogram) minus the decoy counts (blue bars).
 
-#### 2.1.3 Starting the App to evaluate TDA
+<br/>
+
+## 2.1.3 Starting the App to evaluate TDA
 
 When working with the online binder version, hit the binder button below:
 
@@ -67,17 +71,19 @@ A novel panel opens in the topleft. Click on runApp to launch the EvalDecoy app.
 
 The App is launched.
 
-<img src="./figs/evaluateDecoys1.png" height="200">
+<img src="./figs/evaluateDecoys1.png" width="250">
 
-#### 2.1.4 Pyrococcus dataset
+<br/>
 
-The Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) reference proteome. The resulting database has 2,051 proteins in total (https://www.uniprot.org/uniprot/?query=taxonomy:186497, taxonomy:"Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) [186497]").
+## 2.1.4 Pyrococcus dataset
 
-The data can be found on https://github.com/gTPB/PDA18/tree/data
-Use the mzid file for the pyrococcus example, which can be found at data/identification/pyrococcusMSGF+.mzid
+The Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) reference proteome. The resulting database has 2,051 proteins in total ([https://www.uniprot.org/uniprot/?query=taxonomy:186497](https://www.uniprot.org/uniprot/?query=taxonomy:186497), taxonomy:"Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) [186497]").
+
+The data can be found on [https://github.com/GTPB/PDA18/tree/data](https://github.com/GTPB/PDA18/tree/data).
+Use the mzid file for the pyrococcus example, which can be found at data/identification/pyrococcusMSGF+.mzid.
 When the file is uploaded, push the "Process mzid file" button. It will take a while to process the file and you will see that the "Process mzid file" becomes light blue and that an activity indicator appears next to the button.
 
-<img src="./figs/evaluateDecoys2.png" height="200">
+<img src="./figs/evaluateDecoys2.png" width="250">
 
 After processing the mzid file, two additional input tabs appear: one to select the decoy column, which is generally called "isdecoy" and another one to select the search engine score. Note, that two error messages appear because no diagnostic plots can be generated when the selected decoy column is not a variable of the type Boolean (TRUE or FALSE) and the engine score is not a numeric variable.
 
@@ -97,7 +103,9 @@ When the assumptions of the concatenated TDA approach are violated, the dots in 
 When the PP-plot at lower percentiles deviates from a straight line, the distribution of decoys and the bad target PSMs is not equivalent, indicating that the decoys are not a good simulation of bad target hits.
 Both type of deviations should be of concern as they indicate that the FDR returned by the conventional concatenated TDA is incorrect.
 
-##### 2.1. Assess the search you performed in "Tutorial 1. Peptide and Protein Identification" at https://compomics.com/bioinformatics-for-proteomics/identification/
+<br/>
+
+##### 1. Assess the search you performed in "Tutorial 1. Peptide and Protein Identification" at [https://compomics.com/bioinformatics-for-proteomics/identification/](https://compomics.com/bioinformatics-for-proteomics/identification/)
 Open the search from tutorial 1.3. in Peptide Shaker and export the search to an mzid file by clicking export > Peptide Shaker Project As > mzIdentML. Evaluate the TDA for the ommsa, X!Tandem and the Peptide Shaker score.
 
 Evaluate the TDA for the  X!Tandem, OMSSA and Peptide Shaker scores. What do you observe and try to explain. [1.4.a]
@@ -115,9 +123,16 @@ $$\widehat{\text{FDR}}(t)=\frac {2 \times (\#decoys >t)}{\#decoys > t + \#target
 
 Do you agree with this expression? Why, why not? [1.4.d]
 
+<br/>
 
 #### References
 
 [1] Elias JE, Gygi SP. Target-decoy search strategy for increased confidence in large-scale protein identifications by mass spectrometry. Nat Methods. 2007; 4:207--214.
 
 [2] Sticker, A., Martens, L. and Clement, L. (2017). Mass spectrometrists should search for all peptides, but assess only the ones they care about. Nature Methods 14, 643--644.
+
+<br/>
+
+### Back
+
+Back to [first page](../index.md).

@@ -8,13 +8,13 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Proteomics Data Analysis 2018
+title : GPTB Courses
 author :
   name : GTPB
   email : bicourses@igc.gulbenkian.pt
   github : github.com/GTPB
 # NOTE: If replacing this next line with your own URL, you likely want "https://" not "http://"
-production_url : https://GTPB.github.io/PDA2018
+production_url : https://gtpb.github.io/PDA18
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
