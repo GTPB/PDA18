@@ -1,6 +1,6 @@
 ## PDA18 - Proteomics Data Analysis
 
-###  Instituto Gulbenkian de Ciência (IGC) - Oeiras, Portugal - May 18<sup>th</sup> - JUne 1<sup>st</sup> 2018
+###  Instituto Gulbenkian de Ciência (IGC) - Oeiras, Portugal - May 18<sup>th</sup> - June 1<sup>st</sup> 2018
 Go to the [Course oficial website](http://gtpb.igc.gulbenkian.pt/bicourses/2018/PDA18/)
 
 ---
