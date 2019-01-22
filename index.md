@@ -18,6 +18,8 @@ This course is oriented towards biologists and bioinformaticians with at least a
 ## Course Documentation
 All the datasets used for this training course is available throughout the documentation.
 
+<br/>
+
 ### 1. Bioinformatics for Proteomics
 
 - Slides: [Bioinformatics for Proteomics](assets/martens_proteomics_bioinformatics_20180529.pdf)
