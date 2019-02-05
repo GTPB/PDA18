@@ -47,4 +47,4 @@ He also serves as a member of the core team that established a new Master of Sci
 
 ### Back
 
-Back to [first page](../index.md).
+Back to [main page](../index.md).
