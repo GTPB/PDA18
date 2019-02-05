@@ -19,4 +19,4 @@ You will also be requested to watch the following videos before attending the co
 
 ### Back
 
-Back to [first page](../index.md).
+Back to [main page](../index.md).
