@@ -221,4 +221,4 @@ Give the interpretation of the contrast for your top hit? [2.4.4b]
 
 ### Back
 
-Back to [first page](../index.md).
+Back to [main page](../index.md).
