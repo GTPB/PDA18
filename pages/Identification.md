@@ -135,4 +135,4 @@ Do you agree with this expression? Why, why not? [1.4.d]
 
 ### Back
 
-Back to [first page](../index.md).
+Back to [main page](../index.md).
