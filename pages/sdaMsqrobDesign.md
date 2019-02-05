@@ -83,4 +83,4 @@ The data can be found in the folder **data/quantification/cptac**
 
 ### Back
 
-Back to [first page](../index.md)
+Back to [main page](../index.md)
