@@ -56,4 +56,4 @@ All the datasets used for this training course is available throughout the docum
 
 ---
 
-The source for this course webpage is [on github](https://github.com/GTPB/PDA18/tree/gh-pages).
+The repository for this course is available [in github](https://github.com/GTPB/PDA18/).
