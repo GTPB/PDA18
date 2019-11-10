@@ -18,7 +18,7 @@ The following co-authors contributed to the development of the training material
 - The [rocker-binder team](https://github.com/rocker-org/binder) for providing a docker image with shiny proxy support.
 
 #### Course Webpage
-This is the link to the [course webpage](http://gtpb.igc.gulbenkian.pt/bicourses/2019/PDA18/), for further information about the course.
+This is the link to the [course webpage](http://gtpb.igc.gulbenkian.pt/bicourses/2018/PDA18/), for further information about the course.
 
 ---
 
