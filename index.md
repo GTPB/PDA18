@@ -1,8 +1,45 @@
 ---
 layout: page
-title: PDA18
-tagline: Proteomics Data Analysis
-description: Pratical training course that covers Mass spectrometry based proteomic experiments
+schemadotorg:
+  "@context": http://schema.org/
+  "@type": CreativeWork
+  "genre": TrainingMaterial
+
+  # Course details
+       # "name" -> The name of the course
+       # "description" -> Short description of the course
+  name: "PDA18 - Proteomics Data Analysis"
+  description: "Training material that covers the concepts and methods of Mass spectrometry based proteomic experiments, covering peptide and protein identification, quantification, and differential analysis."
+
+  # Keywords -> Consult EDAM:Topic
+  keywords:  ["http://edamontology.org/topic_0121", "http://edamontology.org/topic_3071","http://edamontology.org/data_2536"]
+
+  # Audience -> Following Elixir-Tess input
+  audience: ["Academia/ Research Institution", "Industry", "Non-Profit Organisation", "Healthcare"]
+
+  # Author info
+  author:
+    - "@type": Organization
+      name: "The Gulbenkian Training Programme in Bioinformatics"
+      alternateName: "GTPB"
+      sameAs: "gtpb.igc.gulbenkian.pt/bicourses/index.html"
+
+  # predominant type of learning resources
+  "learningResourceType": ["presentation", "exercise", "scripts", "handout"]
+
+  # Contributor info
+  contributor:
+    - "@type": Person
+      name: "Lennart Martens"
+    - "@type": Person
+      name: "Harald Barsnes"
+    - "@type": Person
+      name: "Lieven Clement"
+
+  # License & Language & url
+  license: https://creativecommons.org/licenses/by/4.0/
+  inLanguage: "en-us"
+  url: "https://gtpb.github.io/PDA18/"
 ---
 
 ![IntroFig](./pages/figs/IntroFig.png)

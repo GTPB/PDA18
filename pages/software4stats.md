@@ -27,7 +27,8 @@ Once inside Jupyter Notebook, RStudio Server should be an option under the menu
 ![](./pages/figs/rstudio-session.jpg)
 
 3. You can install your own local docker by downloading the entire repository and invoking
-```
+
+```bash
 docker build <path to proteomicsShortCourse directory> -t msqrob_docker
 ```
 
@@ -46,7 +47,7 @@ You only have to install the docker  do that once for every machine.
 
 2. Type
 
-```
+```bash
 sudo docker load -i /media/gtpb_shared_drive/To_Participant/statsDocker/msqrob_docker.tar
 ```
 
@@ -68,7 +69,7 @@ Now the docker installations starts.
 
 2. Launch the docker by typing the command.
 
-```
+```bash
 sudo docker run -p 8888:8888 msqrob_docker
 ```
 
@@ -87,11 +88,13 @@ We can interact with the docker via a web browser.
 A new window will appear where you have to fill a the token.
 You can copy the link token from the terminal.
 Here, it was,
+
 ```
 http://c924e5fb54b5:8888/?token=dd01e2e228d8200e8e2cba2f8fff2a9396f4c22b9068c4d5&token=dd01e2e228d8200e8e2cba2f8fff2a9396f4c22b9068c4d5
 ```
 
 we first replace the machine name `c924e5fb54b5` by localhost and paste the adjusted adress in the browser.
+
 ```
 http://localhost:8888/?token=dd01e2e228d8200e8e2cba2f8fff2a9396f4c22b9068c4d5&token=dd01e2e228d8200e8e2cba2f8fff2a9396f4c22b9068c4d5
 ```
@@ -117,7 +120,7 @@ Only if you work with a local Docker.
 2. Log off the jupyter environment
 3. Open a new terminal and type the command
 
-```
+```bash
 sudo docker stop c924e5fb54b5
 ```
 where you replace `c924e5fb54b5` with the name of your docker.

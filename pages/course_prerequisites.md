@@ -1,6 +1,13 @@
 ---
 layout: page
 title: Course Pre-requisites
+schemadotorg:
+  "@context": http://schema.org/
+  "@type": CreativeWork
+  "genre": TrainingMaterial
+  isPartOf:
+      url: "https://gtpb.github.io/PDA18/"
+      name: "PDA18 - Proteomics Data Analysis"
 ---
 
 The participants should have a basic knowledge about mass spectrometry based proteomics. Experience in analysing proteomics data is an advantage, but not mandatory. The course does not require advanced computer skills.
